@@ -140,7 +140,7 @@ int main(void )
 #include<iostream>
 #include<vector>
 using namespace std;
-void help(vector<int> &v, vector<vector<int> > &r, vector<int> x, int sum, int level)
+void help(vector<int> &v, vector<vector<int> > &r, vector<int> &x, int sum, int level)
 {
    if(level==v.size())return;
    if(x.size()>=2)
